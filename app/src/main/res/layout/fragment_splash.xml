@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1C212B">
+
+
+    <ImageView
+        android:id="@+id/welcomePagePNG"
+        android:layout_width="207dp"
+        android:layout_height="181dp"
+        android:background="@drawable/welcomepage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey Welcome!"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:fontFamily="@font/inter_bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pat and Mat Club is with you!"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/inter_medium"/>
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Get Started"
+        android:fontFamily="@font/inter_bold"
+        android:background="@drawable/button_design"/>
+
+
+
+
+</LinearLayout>
