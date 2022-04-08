@@ -50,4 +50,5 @@ dependencies {
     implementation "com.airbnb.android:lottie:5.0.3"
 //    SLIDESHOW
     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
 }

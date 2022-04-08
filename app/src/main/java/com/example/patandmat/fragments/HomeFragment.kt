@@ -26,7 +26,8 @@ class HomeFragment : Fragment() {
 
         val activity = requireActivity() as? MainActivity
         activity?.showToolBar()
-
+        activity?.supportActionBar?.show()
+        activity?.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         return view
     }

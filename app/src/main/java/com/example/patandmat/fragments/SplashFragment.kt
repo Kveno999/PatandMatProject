@@ -32,6 +32,7 @@ class SplashFragment: Fragment() {
 
         init()
 
+
     }
 
     fun init(){
